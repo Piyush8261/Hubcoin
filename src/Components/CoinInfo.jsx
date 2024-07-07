@@ -8,7 +8,7 @@ import { HistoricalChart } from '../config/api';
 import { CircularProgress, ThemeProvider, createTheme, } from '@mui/material';
 import { makeStyles } from 'tss-react/mui';
 import { chartDays } from '../config/data';
-import SelectButton from '.Components/SelectButton';
+import SelectButton from './SelectButton';
 import { Line } from "react-chartjs-2";
 import Chart from 'chart.js/auto'
 
