@@ -8,7 +8,7 @@ import axios from 'axios';
 import { LinearProgress, Typography } from '@mui/material';
 import ReactHtmlParser from 'html-react-parser'
 import { numberWithCommas } from '../Components/CoinsTable';
-import Footer from '../components/footer';
+import Footer from '../Components/Footer';
 
 function Coinpage() {
   const { id } = useParams();
