@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import { CryptoState } from '../CryptoContext';
 import { SingleCoin } from '../config/api';
-import CoinInfo from '../components/coinInfo';
+import CoinInfo from '../Components/CoinInfo';
 import { makeStyles } from 'tss-react/mui';
 import axios from 'axios';
 import { LinearProgress, Typography } from '@mui/material';
